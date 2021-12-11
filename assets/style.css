@@ -1,0 +1,39 @@
+:root {
+    --color_a: #804BB3;
+    --color_b: #D4A6FF;
+    --color_c: #A8FF7D;
+    --color_d: #B3353E;
+    --color_e: #FFB0B4;
+}
+
+html {
+    background-color: var(--color_b);
+    color: var(--color_a);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header, .cheat-card, footer {
+    text-align: center;
+    color: var(--color_e);
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+    background-color: var(--color_d);
+    padding: 10px;
+    border: 20px;
+    border-style: solid;
+    border-color: var(--color_c);
+}
+
+#cheat-card-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+.cheat-card {
+    width: 25%;
+    height: 200px;
+}
+
+@media 
